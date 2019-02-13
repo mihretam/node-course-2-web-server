@@ -1,0 +1,158 @@
+#listOfRestaurants {
+    height: 70%;
+    width: 20%;
+    position: relative;
+    align-content: center;
+    padding: 30px;
+    border-style: groove;
+    border-color: rgba(230, 184, 132, 0.623);
+    background-color: rgba(187, 159, 143, 0.87);
+    float: left;
+    overflow: hidden;
+}
+
+#listOfRestaurants ol {
+   position: relative;
+   width: 80%;
+   background-color: rgba(83, 48, 20, 0.247);
+   font-size: 30px;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   margin: 10px;
+   border-radius: 25px;
+   cursor: pointer;
+   
+}
+
+#listOfRestaurants ol:hover {
+    background-color: rgba(54, 40, 26, 0.144);
+}
+
+.clicked {
+    background-color: rgba(48, 44, 39, 0.281) !important;
+
+}
+
+#listRestaurantsTitle {
+  
+    margin: 5px;
+    margin-bottom: 30px;
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    margin-right: 70px;
+    font-size: 20px;
+
+  }
+
+   #containerOfOrderWindows {
+      position: relative;
+      float: left;
+      display: flex;
+      flex-direction: row;
+      height: 70%;
+      width: 70%;
+  }
+
+.styleOrderWindow {
+    position: relative;
+    background-color: rgba(182, 157, 137, 0.979);   
+    top: 10px;
+    border-color: rgba(49, 39, 20, 0.226);
+    border-style: solid;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    margin: 5px;
+    float: left;
+    width: 300px;
+    min-width: 300px;
+    word-break: break-all;
+  
+}
+
+.styleOrderWindow ul {
+    font-style: italic;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 20px;
+    width: 70%;
+    margin:10px;
+    
+}
+
+.styleOrderWindow ul ol {
+    padding-left: 10px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: rgba(46, 39, 28, 0.158);
+    overflow: hidden;
+}
+
+#inputOrderId {
+    font-family:  'Grand Hotel', cursive;
+    width: 95%;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+.styleOrderWindow h1 {
+    top: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Grand Hotel', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#cancelAllOrderWindowsButton {
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    background-color:rgb(110, 95, 79);
+    border-radius:50px;
+    border-style: solid;
+    border-width: 5px;
+    font-size:25px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.styleCancelOneOrderButton {
+    background-color:rgba(68, 57, 45, 0.596);
+    border-radius:50px;
+    margin: 2px;
+    position: relative;
+    outline: none;
+    float: right;
+    cursor: pointer;
+}
+
+.styleSubmitAndCancelButton {
+    background-color:rgba(68, 57, 45, 0.884);
+    border-radius:50px;
+    font-size:20px;
+    padding: 6px;
+    margin: 5px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+
+
+}
+
+#cancelButton {
+    position: relative;
+    float: right !important;
+}
+body {
+   background-image: url("bck15.jpg");    
+}
